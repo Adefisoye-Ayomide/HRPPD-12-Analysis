@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+venv/
+env/
+
+# Raw data — not tracked, kept on Google Drive
+RAW_DATA/
+*.wfm
+
+# Processed results / generated outputs — not tracked, kept on Google Drive
+hrppd_*.csv
+hrppd_*.npy
+hrppd_*.png
+*.pptx
+paper_figures/
+overlay_plots/
+
+# OS cruft
+.DS_Store
+Thumbs.db
